@@ -19,28 +19,27 @@
 *Implementação de algoritmos preditivos para sugerir ações futuras de irrigação e manejo agrícola*
 
 
-## 📁 Documentação do projeto
+## 📁 Resultado do Trabalho
 
-Descrição das etapas para análise das informações do banco de dados:
-
-- <b>.Importação do arquivo</b>: Como exercicio de importação de dados, utilizamos como referencia o arquivo Smart Farming Sensor Data for Yield Prediction, extração do site KAGGLE, imagem a seguir demonstra a primeira etata do projeto, carga do arquivo .csv no banco de dados Oracle
+- Utilização do algoritmo randow forest para predição de tipo de cultura para plantação e tipo de ação para cultivo. O algoritmo randow forest apresentou 96% de acuracia para definição do tipo de cultura e 100% de acuracia para tipo de ação para manejo.
+- Para simulação utiliza-se como referencia 4 variaveis, sendo, 'temperature', 'humidity', 'ph', 'rainfall', imagem a seguir demonstra o ambiente de simulação desenvolvido na plataforma Streamlit.
 <p align="center">
-<img width="903" height="581" alt="Image" src="https://github.com/user-attachments/assets/b9ca973c-4138-497a-a8f4-7818b608877b" /></a>
+<img width="1009" height="481" alt="Image" src="https://github.com/user-attachments/assets/ee8f3fcb-1d36-4562-b183-a4398cc89164" /></a>
 </p>
 
-- <b>.Importação do arquivo</b>: Como exercicio de importação de dados, utilizamos como referencia o arquivo Smart Farming Sensor Data for Yield Prediction, extração do site KAGGLE, imagem a seguir demonstra a primeira etata do projeto, carga do arquivo .csv no banco de dados Oracle
+- Para ilustração, utilizamos histogramas para avaliar as distribuições quantitativas das variáveis 'temperature', 'humidity', 'ph' e 'rainfall'.
 <p align="center">
-<img width="903" height="581" alt="Image" src="https://github.com/user-attachments/assets/b9ca973c-4138-497a-a8f4-7818b608877b" /></a>
+<img width="919" height="819" alt="Image" src="https://github.com/user-attachments/assets/276852e8-37ac-4bed-acd1-c7abb9b39852" /></a>
 </p>
 
-- <b>.Importação do arquivo</b>: Como exercicio de importação de dados, utilizamos como referencia o arquivo Smart Farming Sensor Data for Yield Prediction, extração do site KAGGLE, imagem a seguir demonstra a primeira etata do projeto, carga do arquivo .csv no banco de dados Oracle
+- Para definição definição do tipo de cultura variavel "label", as variais mais relevantes foram 'humidity' e 'rainfall'
 <p align="center">
-<img width="903" height="581" alt="Image" src="https://github.com/user-attachments/assets/b9ca973c-4138-497a-a8f4-7818b608877b" /></a>
+<img width="954" height="525" alt="Image" src="https://github.com/user-attachments/assets/352d199f-5e5f-4c10-88f9-3cac9e8f22cc" /></a>
 </p>
 
-- <b>.Importação do arquivo</b>: Como exercicio de importação de dados, utilizamos como referencia o arquivo Smart Farming Sensor Data for Yield Prediction, extração do site KAGGLE, imagem a seguir demonstra a primeira etata do projeto, carga do arquivo .csv no banco de dados Oracle
+- Para definição do tipo de ação de manejo, as variaveis mais relevantes foram 'temperature' e 'rainfall'
 <p align="center">
-<img width="903" height="581" alt="Image" src="https://github.com/user-attachments/assets/b9ca973c-4138-497a-a8f4-7818b608877b" /></a>
+<img width="911" height="566" alt="Image" src="https://github.com/user-attachments/assets/e0fbb920-65f7-4a3c-b61b-4601d992e88a" /></a>
 </p>
 
 
