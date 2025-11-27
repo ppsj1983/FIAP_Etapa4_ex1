@@ -46,7 +46,7 @@
 
 ## 🔧 Como executar o código
 
-*Executar o codigo FIAP_03_01.ipynb para visualização das informações da tabela DADOS_SENSORES*
+*Executar o codigo ex_etapa_4_ex_1*
 
 
 ## 🗃 Histórico de lançamentos
